@@ -7,3 +7,10 @@ const reverseStringOne = (string) => {
 };
 
 console.log(reverseStringOne('hello'));
+
+const test = (str) => {
+  const arr = str.split('').reverse().join();
+  return arr;
+};
+
+console.log(test('hello world'));
